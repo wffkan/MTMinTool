@@ -11,7 +11,7 @@
 		165D3C8948F605D2825003CEB5CFB9DB /* Pods-MTMintool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8F888983BAE09539396549DE3CECB /* Pods-MTMintool_Tests-dummy.m */; };
 		34C2CE648E6D1C06857F1A0D76B58231 /* Pods-MTMintool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70365E8DB63F756942C8EA8C946EABB2 /* Pods-MTMintool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42814CB1110187554247A5C6DB6EC157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		64FA22EB293AE097005E8D54 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA22E9293AE097005E8D54 /* BaseViewController.swift */; };
+		64FA22EB293AE097005E8D54 /* BTestaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA22E9293AE097005E8D54 /* BTestaseViewController.swift */; };
 		64FA22EC293AE097005E8D54 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 64FA22EA293AE097005E8D54 /* .gitkeep */; };
 		7C6F3AA910DC1F94561B91693A0AFDE1 /* MTMintool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C070F3A5948DC97EDF83DA8C8990E9 /* MTMintool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		910B17A73DD1B1700BDB1360BA8CD981 /* MTMintool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7678D3D1A1A00351AE6711C7EDEE7E /* MTMintool-dummy.m */; };
@@ -49,7 +49,7 @@
 		4F505ACA37A531F54CA5C3C80B37D46D /* MTMintool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTMintool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		551A4A414751D53CFF8A06A47A6F2231 /* MTMintool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTMintool.release.xcconfig; sourceTree = "<group>"; };
 		5CA556458C3D6C38FBEED3C2461001C6 /* MTMintool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MTMintool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		64FA22E9293AE097005E8D54 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		64FA22E9293AE097005E8D54 /* BTestaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTestaseViewController.swift; sourceTree = "<group>"; };
 		64FA22EA293AE097005E8D54 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		6D32FC2103300C33CFDF245561B349D1 /* Pods-MTMintool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MTMintool_Example"; path = Pods_MTMintool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70365E8DB63F756942C8EA8C946EABB2 /* Pods-MTMintool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTMintool_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		64FA22E8293AE097005E8D54 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				64FA22E9293AE097005E8D54 /* BaseViewController.swift */,
+				64FA22E9293AE097005E8D54 /* BTestaseViewController.swift */,
 				64FA22EA293AE097005E8D54 /* .gitkeep */,
 			);
 			name = Classes;
@@ -402,7 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				910B17A73DD1B1700BDB1360BA8CD981 /* MTMintool-dummy.m in Sources */,
-				64FA22EB293AE097005E8D54 /* BaseViewController.swift in Sources */,
+				64FA22EB293AE097005E8D54 /* BTestaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

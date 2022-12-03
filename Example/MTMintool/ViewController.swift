@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let vc = BaseViewController()
+        let vc = BTestaseViewController()
         vc.hello()
     }
 
