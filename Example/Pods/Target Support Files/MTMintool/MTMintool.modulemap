@@ -1,0 +1,6 @@
+framework module MTMintool {
+  umbrella header "MTMintool-umbrella.h"
+
+  export *
+  module * { export * }
+}

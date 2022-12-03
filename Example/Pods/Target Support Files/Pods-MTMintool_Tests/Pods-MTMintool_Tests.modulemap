@@ -1,0 +1,6 @@
+framework module Pods_MTMintool_Tests {
+  umbrella header "Pods-MTMintool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

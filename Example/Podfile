@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MTMintool_Example' do
+  pod 'MTMintool', :path => '../'
+
+  target 'MTMintool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

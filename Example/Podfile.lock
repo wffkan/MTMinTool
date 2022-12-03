@@ -1,0 +1,16 @@
+PODS:
+  - MTMintool (0.1.0)
+
+DEPENDENCIES:
+  - MTMintool (from `../`)
+
+EXTERNAL SOURCES:
+  MTMintool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTMintool: 5fdbcb252c7f5f39748483c65e4ede7898376601
+
+PODFILE CHECKSUM: 180d763c9dbf9854879fb7b26bcd48f6f7ba0eb7
+
+COCOAPODS: 1.11.3
