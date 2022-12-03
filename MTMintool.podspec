@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTMintool'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = '姐妹邦内部使用的小程序私有封装库'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,8 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   
   s.source_files = 'MTMintool/Classes/**/*'
-  
+  s.static_framework = true
+  s.requires_arc = true
   # s.resource_bundles = {
   #   'MTMintool' => ['MTMintool/Assets/*.png']
   # }
@@ -40,4 +41,10 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 5.5'
+  s.dependency 'Moya', '~> 15.0'
+  s.dependency 'SwiftyJSON', '~> 5.0'
+  s.dependency 'HandyJSON', '~> 5.0'
+  s.dependency 'SnapKit', '~> 5.0'
+  
 end
